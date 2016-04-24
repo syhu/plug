@@ -29,7 +29,7 @@ var l_frontier = new IC.Frontier({
 		IC.Component.SockJS(),					// start a sockjs HTTP server
     ],
 	modules: {
-		'DB': {collections: [], shutdown_if_fail: true},
+		//'DB': {collections: [], shutdown_if_fail: true},
 		'chat': {limit: 1000, backup: true},
 		'pubsub': {}
 	}
